@@ -1,6 +1,7 @@
 <script>
 	import BloquesControl from '../Components/BloquesControl.svelte';
 	import CheckboxGroup from '../Components/CheckboxGroup.svelte';
+	import ClassesAndStyles from '../Components/ClassesAndStyles.svelte';
 	import DeepState from '../Components/DeepState.svelte';
 	import DerivarEstado from '../Components/DerivarEstado.svelte';
 	import DynamicAttributes from '../Components/DynamicAttributes.svelte';
@@ -51,3 +52,5 @@
 <SelectMultiple />
 
 <Transitions />
+
+<ClassesAndStyles />
