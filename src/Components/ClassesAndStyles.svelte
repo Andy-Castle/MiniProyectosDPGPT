@@ -6,7 +6,7 @@
 	<p><input type="checkbox" bind:checked={active} />Dale al checked para cambiar el estilo</p>
 </div> -->
 
-<div class="container" class:active={active === true}>
+<div class="container" class:color={active === true}>
 	<p><input type="checkbox" bind:checked={active} />Dale al checked para cambiar el estilo</p>
 </div>
 
@@ -18,7 +18,7 @@
 		justify-content: center;
 	}
 
-	.active {
+	.color {
 		background-color: blueviolet;
 	}
 </style>
