@@ -1,4 +1,5 @@
 <script>
+	import Actions from '../Components/actions/actions.svelte';
 	import BloquesControl from '../Components/BloquesControl.svelte';
 	import CheckboxGroup from '../Components/CheckboxGroup.svelte';
 	import ClassesAndStyles from '../Components/ClassesAndStyles.svelte';
@@ -54,3 +55,5 @@
 <Transitions />
 
 <ClassesAndStyles />
+
+<Actions />
