@@ -14,6 +14,7 @@
 	import SelectBind from '../Components/SelectBind.svelte';
 	import SelectMultiple from '../Components/SelectMultiple.svelte';
 	import StylesSvelte from '../Components/StylesSvelte.svelte';
+	import Transitions from '../Components/Transitions.svelte';
 	import VinculacionChecked from '../Components/VinculacionChecked.svelte';
 </script>
 
@@ -48,3 +49,5 @@
 <CheckboxGroup />
 
 <SelectMultiple />
+
+<Transitions />
